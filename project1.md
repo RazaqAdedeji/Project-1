@@ -23,4 +23,18 @@
 `php -v`
 ![php -v](./php-v.png)
 
+`sudo mkdir /var/www/projectlamp`
+
+![sudo mkdir](./sudo%20mkdir%20%3Avar.png)
+
+`sudo ls /etc/apache2/sites-available` 
+![sudo ls site available](./sudo%20ls%20%3Aetc%3Aapache2%3Asites-available.png)
+
+`sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectlamp/index.html`
+
+![hello LAMP](./Hello%20Lamp.png)
+
+`sudo vim /etc/apache2/mods-enabled/dir.conf`
+![mods-enabled](./sudo%20vim%20%3Aetc%3Aapache2%3Amods.png)
+
 
